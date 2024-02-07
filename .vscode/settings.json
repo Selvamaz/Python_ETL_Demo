@@ -1,0 +1,27 @@
+{
+    "saveEditorLayout.list": [
+        {
+            "name": "My Layout",
+            "documents": [
+                {
+                    "fsPath": "c:\\Users\\selva\\Dev\\Python_ETL_Demo\\Python_ETL.py",
+                    "column": 1,
+                    "pinned": false
+                },
+                {
+                    "fsPath": "c:\\Users\\selva\\Dev\\Python_ETL_Demo\\Faker_File.py",
+                    "column": 1,
+                    "pinned": false
+                }
+            ],
+            "layout": {
+                "orientation": 1,
+                "groups": [
+                    {
+                        "size": 975
+                    }
+                ]
+            }
+        }
+    ]
+}
