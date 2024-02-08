@@ -7,6 +7,7 @@ import openpyxl
 import pandas as pd
 from openpyxl.utils.dataframe import dataframe_to_rows
 from babel.numbers import format_currency
+import datetime
 
 
 invoice_id = random.randrange(100000,999999)
@@ -33,8 +34,8 @@ if os.path.isfile(file):  # if file already exists append to existing file
         sheet.append(row)
     workbook.save(file)  # save workbook
     workbook.close()  # close workbook
-    print("Updated")
+    print("\n\n\n Updated new entries !!!\n\n\n")
 else:  # create the excel file if doesn't already exist
     with pd.ExcelWriter(path = file, engine = 'openpyxl') as writer:
         df.to_excel(writer, index = False, sheet_name = 'Sheet1')
-    print("Created")
+    print("\n\n\n Created a new excel !!!\n\n\n")
